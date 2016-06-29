@@ -1,0 +1,51 @@
+body {
+	background-color: #fffcf5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+}
+a:link {
+	color: #6f9c9c;
+	text-decoration: none;
+}
+.centerAlign {
+	margin: 0 auto;
+}
+h1, h2, h3 {
+	font-family: 'Bitter', serif;
+	color: #0b2f33;
+	margin-top: 0;
+}
+h2 {
+	border-bottom: 1px solid #b1c2c3;
+}
+main, footer, header {
+	max-width: 600px;
+}
+footer {
+	font-size: 0.8em;
+}
+button {
+	background-color: #fffcf5;
+	border: 2px solid #6f9c9c;
+/*	border-radius: 2px;*/	
+	color: #6f9c9c;
+	cursor: pointer;
+	font-size: 0.6em;
+	font-weight: bold;
+	margin-right: 2em;
+	padding: 0.8em;
+	text-transform: uppercase;
+}
+button:disabled {
+	border-color: #b1c2c3;
+	color: #b1c2c3;
+}
+.problem {
+	/*background-color: #9DDCDC;
+	border-radius: 10px;*/
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#prob1answer, #prob2answer, #prob3answer {
+	display: none;
+}
